@@ -80,14 +80,14 @@ const Navbar = class extends React.Component {
 
                 </span>
               </a>
-              <a title="telegram" className="navbar-item" href="https://t.me/olegdi">
+              <a title="telegram" className="navbar-item" href="https://t.me/olegdi" target="_blank">
                   <img
                     src={telegram}
                     alt="Telegram"
                     style={{ width: "2em", height: "2em" }}
                   />
                 </a>
-                <a title="youtube" className="navbar-item" href="https://www.youtube.com/channel/UCsG4d7tL554tAJLO9viHmJA">
+                <a title="youtube" className="navbar-item" href="https://www.youtube.com/channel/UCsG4d7tL554tAJLO9viHmJA" target="_blank">
                   <img
                     src={youtube}
                     alt="Youtube"
