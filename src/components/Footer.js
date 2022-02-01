@@ -14,14 +14,14 @@ const Footer = class extends React.Component {
               <div className="column is-4"> 
               </div>
               <div className="column is-4 social">
-                <a title="telegram" href="https://t.me/olegdi" target="_blank">
+                <a title="telegram" href="https://t.me/olegdi" target="_blank" rel="noreferrer">
                   <img
                     src={telegram}
                     alt="Telegram"
                     style={{ width: "1em", height: "1em" }}
                   />
                 </a>
-                <a title="youtube" href="https://www.youtube.com/channel/UCsG4d7tL554tAJLO9viHmJA" target="_blank">
+                <a title="youtube" href="https://www.youtube.com/channel/UCsG4d7tL554tAJLO9viHmJA" target="_blank" rel="noreferrer">
                   <img
                     src={youtube}
                     alt="Youtube"
