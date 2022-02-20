@@ -24,7 +24,7 @@ class BlogRollTemplate extends React.Component {
                       <PreviewCompatibleImage
                         imageInfo={{
                           image: post.frontmatter.featuredimage,
-                          alt: `featured image thumbnail for post ${post.frontmatter.title}`,
+                          alt: `${post.frontmatter.title}`,
                           width:
                             post.frontmatter.featuredimage.childImageSharp
                               .gatsbyImageData.width,
@@ -92,7 +92,7 @@ export default function BlogRoll() {
                 frontmatter {
                   title
                   templateKey
-                  date(formatString: "MMMM DD, YYYY")
+                  date(formatString: "DD.MM.YYYY")
                   featuredpost
                   featuredimage {
                     childImageSharp {
